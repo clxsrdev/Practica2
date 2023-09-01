@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 2</title>
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2&family=Oswald&family=Poppins:wght@300;400;600;700&family=Raleway:ital,wght@0,400;0,700;1,400&family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./JS/main.js"></script>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="signature">CLXSRDEV</h1>
+    </header>
+
+    <div class="wrapper">
+        <form action="">
+            <h1>Genera <span class="rfcspan">RFC</span></h1>
+                <div class="input-box">
+                    <input id="nombreInp" type="text" placeholder="Ingresa tu nombre">
+                    <i class='bx bxs-user'></i>
+                </div>
+                <div class="input-box">
+                    <input id="apePaInp" type="text" placeholder="Ingresa tu apellido paterno">
+                    <i class='bx bx-male-sign'></i>
+                </div>
+                <div class="input-box">
+                    <input id="apeMaInp" type="text" placeholder="Ingresa tu apellido materno">
+                    <i class='bx bx-female-sign'></i>
+                </div>
+                <div class="input-box">
+                    <input id="dateInp" class="input-date" type="date">
+                </div>
+                <button id="btnRFC" type="submit" class="btn">Generar RFC</button>
+                <div class="input-box">
+                    <input id="RFC" class="RFC" type="text" readonly>
+                </div>
+        </form>
+    </div>
+
+    <div class="wrapper rest">
+        <form action="">
+            <h1>API <span class="rfcspan">REST</span></h1>
+                <div class="input-box">
+                    <input id="searchid" type="number" placeholder="Ingresa tu ID">
+                    <i class='bx bxs-key'></i>
+                </div>
+                <button id="btnAPI" type="button" class="btn">Buscar datos</button>
+                <div class="input-box">
+                    <input id="nombreAPI" class="RFC" type="text" placeholder="Aca aparecerá tu nombre" readonly>
+                </div>
+                <div class="input-box">
+                    <input id="emailAPI" class="RFC" type="text" placeholder="Aca aparecerá tu email" readonly>
+                </div>
+        </form>
+    </div>
+</body>
+</html>
