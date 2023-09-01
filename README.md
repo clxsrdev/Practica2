@@ -2,7 +2,7 @@
 
 ## 📝Actividad a realizar
 
-<p align="center">Desarrollar una aplicación web basada en un estilo arquitectónico de ingenieria de software denominado SPA(Single Page Application);<br>para ello se usaron las siguientes tecnologías <strong>HTML</strong>, <strong>CSS</strong> y <strong>JS</strong>(JQuery - AJAX)</p>
+<p align="center">Desarrollar una aplicación web basada en un estilo arquitectónico de ingenieria de software denominado SPA(Single Page Application); para ello se usaron las siguientes tecnologías <strong>HTML</strong>, <strong>CSS</strong> y <strong>JS</strong>(JQuery - AJAX)</p>
 <div align="center">
     <img src="https://img.shields.io/badge/HTML-EC6231?logo=html5&logoColor=FFFFFF&style=for-the-badge" />
     <img src="https://img.shields.io/badge/CSS-01A3D8?logo=css3&logoColor=FFFFFF&style=for-the-badge" />
